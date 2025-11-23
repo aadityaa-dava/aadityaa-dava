@@ -58,7 +58,7 @@ MySQL • MongoDB
 
 📘 **Implementing an Accident Detection and Notification System Using AWS**  
 *International Journal of Engineering Science and Advanced Technology (IJESAT)*, Vol. 24, Issue 06, 2024  
--- Co-authored a paper on cloud-based IoT crash detection systems  
+*Co-authored a paper on cloud-based IoT crash detection systems*
 
 ## 🌱 Current Focus  
 - Building more ML + Big Data projects  
@@ -72,4 +72,4 @@ MySQL • MongoDB
 
 ---
 
-⭐ **Thanks for visiting — feel free to explore my repositories!**
+⭐ **Thanks for visiting - feel free to explore my repositories!**
