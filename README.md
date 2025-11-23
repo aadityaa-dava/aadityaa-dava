@@ -30,17 +30,15 @@ MySQL • MongoDB
 
 ## 📂 Featured Projects  
 
-### 🔸 **NYC Taxi Fare Prediction (ML + Feature Engineering)**  
+### **NYC Taxi Fare Prediction (ML + Feature Engineering)**  
 📌 *Python, Scikit-learn, Pandas, Matplotlib*  
-- Performed EDA, geospatial feature engineering, and trained regression models (Linear, RF, XGBoost)  
+- Performed EDA, geospatial feature engineering and trained regression models (Linear, RF, XGBoost)  
 - Tuned hyperparameters with GridSearchCV to improve RMSE  
 - Includes complete notebooks, scripts, and documentation  
 
 🔗 Repo: *Coming soon…*
 
----
-
-### 🔸 **Rain Prediction Model (Regression + Dashboard)**  
+### **Rain Prediction Model (Regression + Dashboard)**  
 📌 *Python, Scikit-learn, Power BI*  
 - Built Linear and Logistic Regression models  
 - Extracted features from meteorological datasets  
@@ -48,9 +46,7 @@ MySQL • MongoDB
 
 🔗 Repo: *Coming soon…*
 
----
-
-### 🔸 **Accident Detection & Notification System (AWS IoT + Cloud)**  
+### **Accident Detection & Notification System (AWS IoT + Cloud)**  
 📌 *AWS IoT Core, SNS, Lambda, Python*  
 - Detects crash events using accelerometer data  
 - Sends SMS/email alerts in under **20 seconds**  
@@ -58,31 +54,17 @@ MySQL • MongoDB
 
 🔗 Repo: *Coming soon…*
 
----
-
-## 📄 Publication  
+## 📄 Publications  
 
 📘 **Implementing an Accident Detection and Notification System Using AWS**  
 *International Journal of Engineering Science and Advanced Technology (IJESAT)*, Vol. 24, Issue 06, 2024  
-- Co-authored a paper on cloud-based IoT crash detection systems  
-
----
-
-## 📊 GitHub Stats  
-
-![Aadityaa's GitHub Stats](https://github-readme-stats.vercel.app/api?username=aadityaa-dava&show_icons=true&theme=default)  
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aadityaa-dava&layout=compact&theme=default)
-
----
+-- Co-authored a paper on cloud-based IoT crash detection systems  
 
 ## 🌱 Current Focus  
 - Building more ML + Big Data projects  
 - Strengthening NLP and visualization skills  
 - Preparing for academic roles and internships  
 - Enhancing GitHub with clean documentation & reproducible code  
-
----
 
 ## 📫 Connect With Me  
 📧 Email: **aadityaa.dava@gmail.com**  
