@@ -67,8 +67,8 @@ MySQL • MongoDB
 - Enhancing GitHub with clean documentation & reproducible code  
 
 ## 📫 Connect With Me  
-📧 Email: **aadityaa.dava@gmail.com**  
-🔗 LinkedIn: [linkedin.com/in/aadityaa-dava](https://www.linkedin.com/in/aadityaa-dava)
+📧 Email: aadityaa.dava@gmail.com  
+🔗 LinkedIn: www.linkedin.com/in/aadityaa-dava-688908308
 
 ---
 
