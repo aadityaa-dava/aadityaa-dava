@@ -69,7 +69,5 @@ MySQL • MongoDB
 ## 📫 Connect With Me  
 📧 Email: aadityaa.dava@gmail.com  
 🔗 LinkedIn: www.linkedin.com/in/aadityaa-dava-688908308
-
----
-
+##
 ⭐ **Thanks for visiting - feel free to explore my repositories!**
