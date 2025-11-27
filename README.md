@@ -36,7 +36,7 @@ MySQL • MongoDB
 - Tuned hyperparameters with GridSearchCV to improve RMSE  
 - Includes complete notebooks, scripts, and documentation  
 
-🔗 Repo: *Coming soon…*
+🔗 Repo: https://github.com/aadityaa-dava/NYC-Taxi-Fare-Prediction
 
 ### **Rain Prediction Model (Regression + Dashboard)**  
 📌 *Python, Scikit-learn, Power BI*  
