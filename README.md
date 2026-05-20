@@ -51,14 +51,6 @@ MySQL • MongoDB
 
 🔗 Repo: *Coming soon…*
 
-### **Accident Detection & Notification System (AWS IoT + Cloud)**  
-📌 *AWS IoT Core, SNS, Lambda, Python*  
-- Detects crash events using accelerometer data  
-- Sends SMS/email alerts in under **20 seconds**  
-- Published as a research paper  
-
-🔗 Repo: *Coming soon…*
-
 ## 📄 Publications  
 
 📘 **Implementing an Accident Detection and Notification System Using AWS**  
