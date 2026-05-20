@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Aadityaa Dava  
 
-🎓 Graduate Student – **M.P.S. in Data Science, UMBC**  
+🎓 Graduate Student – **Masters in Data Science, UMBC**  
 📍 Maryland, USA  
 💻 Aspiring Data Scientist | ML Enthusiast | Big Data & Cloud Practitioner  
 
