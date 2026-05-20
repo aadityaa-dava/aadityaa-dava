@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Aadityaa Dava  
+# Hi, I'm Aadityaa Dava  
 
 🎓 Graduate Student – **Masters in Data Science, University of Maryland, Baltimore County**  
 📍 Maryland, USA  
