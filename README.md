@@ -12,23 +12,28 @@ I love building analytical models, exploring datasets and creating end-to-end da
 
 **Programming & Scripting**:
 Python • SQL • Java • PHP • C  
-
 **Machine Learning & DS**:
 Regression • Classification • Feature Engineering • Scikit-learn • Pandas • NumPy  
-
 **Big Data**:
 PySpark • Spark SQL • Hadoop • HDFS  
-
 **Cloud & DevOps**:
 AWS (SNS, Lambda, IoT Core, S3) • Git • Version Control  
-
 **Visualization**:
 Tableau • Power BI • Matplotlib  
-
 **Databases**:
 MySQL • MongoDB  
 
 ## 📂 Featured Projects  
+
+### **Identifying U.S. Counties at Risk of Economic Decline (DATA 606 Capstone)**
+📌 *Python, Pandas, Streamlit, Plotly, Scikit-learn*
+
+* Analyzed U.S. county-level socioeconomic indicators using ACS Census datasets
+* Performed data cleaning, EDA, correlation analysis, and economic risk modeling
+* Developed a composite risk scoring framework to classify counties into risk groups
+* Built an interactive Streamlit dashboard for county-level exploration and visualization
+
+🔗 Repo: https://github.com/aadityaa-dava/UMBC-DATA606-Capstone
 
 ### **NYC Taxi Fare Prediction (ML + Feature Engineering)**  
 📌 *Python, Scikit-learn, Pandas, Matplotlib*  
