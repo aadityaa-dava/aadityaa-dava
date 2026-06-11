@@ -1,70 +1,170 @@
-# Hi, I'm Aadityaa Dava  
+# Hi, I'm Aadityaa Dava
 
-🎓 Graduate Student – **Masters in Data Science, University of Maryland, Baltimore County**  
-📍 Maryland, USA  
-💻 Aspiring Data Scientist | ML Enthusiast | Big Data & Cloud Practitioner  
+Graduate Student – Master of Science in Data Science
 
-## 🚀 About Me  
-I’m a Data Science graduate student at **University of Maryland, Baltimore County (UMBC)** with skills in **machine learning, NLP, big data processing, cloud systems, and data visualization**.  
-I love building analytical models, exploring datasets and creating end-to-end data pipelines.  
+University of Maryland, Baltimore County (UMBC)
 
-## 🧠 Skills & Technologies  
+Maryland, USA
 
-**Programming & Scripting**:
-Python • SQL • Java • PHP • C  
-**Machine Learning & DS**:
-Regression • Classification • Feature Engineering • Scikit-learn • Pandas • NumPy  
-**Big Data**:
-PySpark • Spark SQL • Hadoop • HDFS  
-**Cloud & DevOps**:
-AWS (SNS, Lambda, IoT Core, S3) • Git • Version Control  
-**Visualization**:
-Tableau • Power BI • Matplotlib  
-**Databases**:
-MySQL • MongoDB  
+Data Analytics | Business Intelligence | Machine Learning
 
-## 📂 Featured Projects  
+---
 
-### **Identifying U.S. Counties at Risk of Economic Decline (DATA 606 Capstone)**
-📌 *Python, Pandas, Streamlit, Plotly, Scikit-learn*
+## About Me
 
-* Analyzed U.S. county-level socioeconomic indicators using ACS Census datasets
-* Performed data cleaning, EDA, correlation analysis, and economic risk modeling
-* Developed a composite risk scoring framework to classify counties into risk groups
-* Built an interactive Streamlit dashboard for county-level exploration and visualization
+I am a Data Science graduate student at the University of Maryland, Baltimore County (UMBC) with experience in data analytics, machine learning, business intelligence, big data technologies and cloud computing.
 
-🔗 Repo: https://github.com/aadityaa-dava/UMBC-DATA606-Capstone
+My interests include:
 
-### **NYC Taxi Fare Prediction (ML + Feature Engineering)**  
-📌 *Python, Scikit-learn, Pandas, Matplotlib*  
-- Performed EDA, geospatial feature engineering and trained regression models (Linear, RF, XGBoost)  
-- Tuned hyperparameters with GridSearchCV to improve RMSE  
-- Includes complete notebooks, scripts, and documentation  
+* Data Analytics and Visualization
+* Machine Learning and Predictive Modeling
+* Business Intelligence and Dashboard Development
+* Healthcare Analytics
+* Big Data Processing
+* Cloud-Based Data Solutions
 
-🔗 Repo: https://github.com/aadityaa-dava/NYC-Taxi-Fare-Prediction
+I enjoy building end-to-end projects that combine data engineering, exploratory analysis, machine learning and business storytelling to solve real-world problems.
 
-### **Rain Prediction Model (Regression + Dashboard)**  
-📌 *Python, Scikit-learn, Power BI*  
-- Built Linear and Logistic Regression models  
-- Extracted features from meteorological datasets  
-- Created an interactive dashboard for trend analysis  
+---
 
-🔗 Repo: *Coming soon…*
+## Technical Skills
 
-## 📄 Publications  
+### Programming
 
-📘 **Implementing an Accident Detection and Notification System Using AWS**  
-*International Journal of Engineering Science and Advanced Technology (IJESAT)*, Vol. 24, Issue 06, 2024  
-*Co-authored a paper on cloud-based IoT crash detection systems*
+* Python
+* SQL
+* Java
+* PHP
+* C
 
-## 🌱 Current Focus  
-- Building more ML + Big Data projects  
-- Strengthening NLP and visualization skills  
-- Preparing for academic roles and internships  
-- Enhancing GitHub with clean documentation & reproducible code  
+### Data Analysis & Machine Learning
 
-## 📫 Connect With Me  
-📧 Email: aadityaa.dava@gmail.com  
-🔗 LinkedIn: www.linkedin.com/in/aadityaa-dava-688908308
-##
-⭐ **Thanks for visiting - feel free to explore my repositories!**
+* Pandas
+* NumPy
+* Scikit-Learn
+* Feature Engineering
+* Classification
+* Regression
+* Statistical Analysis
+* Model Evaluation
+
+### Data Visualization
+
+* Power BI
+* Tableau
+* Plotly
+* Matplotlib
+* Seaborn
+
+### Big Data
+
+* PySpark
+* Spark SQL
+* Hadoop
+* HDFS
+
+### Cloud & DevOps
+
+* AWS S3
+* AWS Lambda
+* AWS SNS
+* AWS IoT Core
+* Git
+* GitHub
+
+### Databases
+
+* MySQL
+* MongoDB
+* PostgreSQL
+* Redis
+
+---
+
+## Featured Projects
+
+### Healthcare Claims Fraud Detection Using Machine Learning
+
+**Python • SQL • Scikit-Learn • Power BI**
+
+* Built an end-to-end healthcare fraud detection pipeline using Medicare claims data.
+* Engineered 17 provider-level fraud indicators from healthcare claims and beneficiary datasets.
+* Developed machine learning models achieving 96.99% ROC-AUC and 91.09% Recall.
+* Performed provider risk analysis using SQL and Python.
+* Designed interactive Power BI dashboards for fraud monitoring and provider risk assessment.
+* Generated business recommendations to support healthcare fraud prevention.
+
+Repository:
+https://github.com/aadityaa-dava/healthcare-claims-fraud-detection
+
+---
+
+### Distributed URL Shortener
+
+**Java • Spring Boot • PostgreSQL • Redis**
+
+* Built a scalable URL shortening service using Spring Boot and REST APIs.
+* Implemented Base62 encoding for compact URL generation.
+* Integrated Redis caching to improve redirect performance.
+* Designed a layered backend architecture using Spring Boot, PostgreSQL and Redis.
+* Added click analytics tracking, validation and exception handling.
+
+Repository:
+https://github.com/aadityaa-dava/distributed-url-shortener
+
+---
+
+### Identifying U.S. Counties at Risk of Economic Decline (DATA 606 Capstone)
+
+**Python • Streamlit • Plotly • Scikit-Learn**
+
+* Analyzed county-level socioeconomic indicators using ACS Census datasets.
+* Developed a composite economic risk scoring framework.
+* Performed exploratory data analysis, correlation analysis and predictive modeling.
+* Built an interactive Streamlit dashboard for county-level exploration and visualization.
+
+Repository:
+https://github.com/aadityaa-dava/UMBC-DATA606-Capstone
+
+---
+
+### NYC Taxi Fare Prediction
+
+**Python • Scikit-Learn • Pandas • Matplotlib**
+
+* Performed exploratory data analysis and geospatial feature engineering.
+* Trained and evaluated multiple regression models.
+* Improved prediction performance through hyperparameter tuning.
+* Developed a complete machine learning workflow from data preparation to evaluation.
+
+Repository:
+https://github.com/aadityaa-dava/NYC-Taxi-Fare-Prediction
+
+---
+
+## Publication
+
+### Implementing an Accident Detection and Notification System Using AWS
+
+International Journal of Engineering Science and Advanced Technology (IJESAT)
+Volume 24, Issue 06, 2024
+
+* Co-authored a research paper on cloud-based IoT accident detection and emergency notification systems using AWS services.
+
+---
+
+## Current Focus
+
+* Building advanced machine learning and analytics projects
+* Expanding expertise in Power BI and data visualization
+* Strengthening big data and cloud computing skills
+* Preparing for Data Analyst, Business Intelligence Analyst and Data Scientist opportunities
+
+---
+
+## Connect With Me
+
+Email: [aadityaa.dava@gmail.com](mailto:aadityaa.dava@gmail.com)
+
+LinkedIn:
+https://www.linkedin.com/in/aadityaa-dava-688908308
