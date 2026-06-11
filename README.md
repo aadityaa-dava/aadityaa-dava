@@ -1,10 +1,10 @@
 # Hi, I'm Aadityaa Dava
 
-Graduate Student – Master of Science in Data Science
+Graduate Student - Master of Science in Data Science
 
 University of Maryland, Baltimore County (UMBC)
 
-Maryland, USA
+Baltimore, Maryland, USA
 
 Data Analytics | Business Intelligence | Machine Learning
 
