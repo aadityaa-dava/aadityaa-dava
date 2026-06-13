@@ -12,18 +12,97 @@ Baltimore, Maryland, USA
 
 ## About Me
 
-I am a Data Science graduate student at the University of Maryland, Baltimore County (UMBC) with experience in data analytics, machine learning, business intelligence, big data technologies, and cloud computing.
+I am a Data Science graduate student at the University of Maryland, Baltimore County (UMBC) with experience in data analytics, machine learning, business intelligence, big data technologies and cloud computing.
 
 My interests include:
 
-* Data Analytics and Visualization
-* Machine Learning and Predictive Modeling
-* Business Intelligence and Dashboard Development
-* Customer and Healthcare Analytics
+* Data Analytics & Visualization
+* Machine Learning & Predictive Modeling
+* Business Intelligence & Dashboard Development
+* Customer & Healthcare Analytics
 * Big Data Processing
 * Cloud-Based Data Solutions
 
-I enjoy building end-to-end projects that combine data engineering, exploratory analysis, machine learning, and business storytelling to solve real-world problems.
+I enjoy building end-to-end projects that combine data engineering, exploratory analysis, machine learning and business storytelling to solve real-world problems.
+
+---
+
+## Featured Projects
+
+### Customer Churn Prediction & Retention Analytics
+
+**Python • Scikit-Learn • XGBoost • Power BI**
+
+* Built an end-to-end customer churn analytics solution using 7,032 telecom customer records.
+* Engineered customer risk, CLV, tenure and behavioral features for predictive modeling.
+* Developed customer personas using K-Means clustering and identified high-risk customer segments.
+* Trained Logistic Regression, Random Forest and XGBoost models achieving **83.75% ROC-AUC**.
+* Identified **1,002 high-risk customers** and quantified approximately **$2.86M in revenue at risk**.
+* Designed an interactive Power BI dashboard for churn monitoring and retention analysis.
+
+Repository:
+https://github.com/aadityaa-dava/customer-churn-prediction-retention-analytics
+
+---
+
+### Healthcare Claims Fraud Detection Using Machine Learning
+
+**Python • SQL • Scikit-Learn • Power BI**
+
+* Built an end-to-end healthcare fraud detection pipeline using Medicare claims datasets.
+* Engineered provider-level fraud indicators and analyzed reimbursement and utilization patterns.
+* Developed machine learning models achieving **96.99% ROC-AUC** and **91.09% Recall**.
+* Applied SMOTE to address class imbalance and improve fraud detection performance.
+* Identified key fraud indicators including claim volume, reimbursement amounts and length of stay.
+* Created Power BI dashboards supporting fraud monitoring and provider risk assessment.
+
+Repository:
+https://github.com/aadityaa-dava/healthcare-claims-fraud-detection
+
+---
+
+### U.S. County Economic Risk Analysis Dashboard (DATA 606 Capstone)
+
+**Python • Streamlit • Plotly • Scikit-Learn**
+
+* Analyzed socioeconomic conditions across **3,221 U.S. counties** using ACS Census datasets.
+* Developed a county-level Economic Risk Scoring Framework using income, poverty, employment, education and housing indicators.
+* Performed exploratory analysis to identify drivers of economic vulnerability and regional disparities.
+* Built and deployed an interactive Streamlit dashboard with county risk maps and dynamic filtering.
+* Generated insights supporting economic planning, policy evaluation and regional risk assessment.
+
+Repository:
+https://github.com/aadityaa-dava/UMBC-DATA606-Capstone
+
+---
+
+### Distributed URL Shortener
+
+**Java • Spring Boot • PostgreSQL • Redis**
+
+* Developed a scalable URL shortening service using Spring Boot, PostgreSQL, Redis and REST APIs.
+* Implemented Base62 encoding for compact URL generation and redirection workflows.
+* Integrated Redis caching to improve redirect performance and reduce database lookups.
+* Designed a layered backend architecture with validation, exception handling and analytics tracking.
+* Leveraged PostgreSQL and Hibernate/JPA for persistent URL storage and retrieval.
+
+Repository:
+https://github.com/aadityaa-dava/distributed-url-shortener
+
+---
+
+### NYC Taxi Fare Prediction
+
+**Python • Scikit-Learn • Pandas • Matplotlib**
+
+* Built a machine learning pipeline to predict New York City taxi fares using trip-level transportation data.
+* Performed data cleaning, exploratory analysis, and geospatial feature engineering.
+* Engineered temporal and distance-based features including trip duration and Manhattan distance.
+* Developed and evaluated Random Forest regression models using RMSE and residual analysis.
+* Implemented a complete workflow covering data preparation, modeling, evaluation and model persistence.
+
+Repository:
+https://github.com/aadityaa-dava/NYC-Taxi-Fare-Prediction
 
 ---
 
@@ -37,7 +116,7 @@ I enjoy building end-to-end projects that combine data engineering, exploratory 
 * PHP
 * C
 
-### Data Analysis & Machine Learning
+### Data Analytics & Machine Learning
 
 * Pandas
 * NumPy
@@ -82,83 +161,6 @@ I enjoy building end-to-end projects that combine data engineering, exploratory 
 
 ---
 
-## Featured Projects
-
-### Customer Churn Prediction & Retention Analytics
-
-**Python • Pandas • Scikit-Learn • XGBoost • Power BI**
-
-* Built an end-to-end customer churn analytics solution using 7,032 customer records.
-* Performed data cleaning, feature engineering, customer segmentation, predictive modeling, and business intelligence reporting.
-* Developed K-Means customer personas and churn risk scoring models identifying 1,002 high-risk customers.
-* Trained Logistic Regression, Random Forest, and XGBoost models, achieving **83.75% ROC-AUC**.
-* Quantified approximately **$2.86M in revenue at risk** and visualized insights through an interactive Power BI dashboard.
-
-Repository:
-https://github.com/aadityaa-dava/customer-churn-prediction-retention-analytics
-
----
-
-### Healthcare Claims Fraud Detection Using Machine Learning
-
-**Python • SQL • Scikit-Learn • Power BI**
-
-* Built an end-to-end healthcare fraud detection pipeline using Medicare claims and beneficiary datasets.
-* Engineered provider-level fraud indicators and performed reimbursement and utilization analysis.
-* Developed machine learning models achieving **96.99% ROC-AUC** and **91.09% Recall**.
-* Applied SMOTE to address class imbalance and improve fraud detection performance.
-* Created Power BI dashboards and risk analysis workflows to support fraud investigations.
-
-Repository:
-https://github.com/aadityaa-dava/healthcare-claims-fraud-detection
-
----
-
-### Distributed URL Shortener
-
-**Java • Spring Boot • PostgreSQL • Redis**
-
-* Developed a scalable URL shortening service using Spring Boot, PostgreSQL, Redis, and REST APIs.
-* Implemented Base62 encoding for compact URL generation and redirection workflows.
-* Integrated Redis caching to improve performance and reduce database lookups.
-* Designed a layered backend architecture with centralized validation and exception handling.
-* Added click analytics tracking for URL usage monitoring.
-
-Repository:
-https://github.com/aadityaa-dava/distributed-url-shortener
-
----
-
-### Identifying U.S. Counties at Risk of Economic Decline (DATA 606 Capstone)
-
-**Python • Streamlit • Plotly • Scikit-Learn**
-
-* Analyzed county-level socioeconomic indicators using American Community Survey (ACS) datasets.
-* Developed a composite economic risk scoring framework and predictive modeling pipeline.
-* Performed exploratory data analysis and correlation analysis to identify risk factors.
-* Built an interactive Streamlit dashboard for county-level visualization and exploration.
-* Generated insights to support regional economic planning and policy analysis.
-
-Repository:
-https://github.com/aadityaa-dava/UMBC-DATA606-Capstone
-
----
-
-### NYC Taxi Fare Prediction
-
-**Python • Scikit-Learn • Pandas • Matplotlib**
-
-* Built a machine learning pipeline to predict New York City taxi fares using trip-level ride data.
-* Performed data cleaning, exploratory analysis, and geospatial feature engineering.
-* Developed a Random Forest regression model using temporal and location-based features.
-* Achieved strong predictive performance with RMSE-based evaluation and residual analysis.
-* Implemented a complete workflow covering data preparation, modeling, and evaluation.
-
-Repository:
-https://github.com/aadityaa-dava/NYC-Taxi-Fare-Prediction
-
----
-
 ## Publication
 
 ### Implementing an Accident Detection and Notification System Using AWS
@@ -175,8 +177,8 @@ Volume 24, Issue 06, 2024
 * Building advanced machine learning and analytics projects
 * Expanding expertise in Power BI and business intelligence
 * Strengthening big data and cloud computing skills
-* Developing production-ready data science and analytics solutions
-* Preparing for Data Analyst, Business Intelligence Analyst, and Data Scientist opportunities
+* Developing production-ready analytics solutions
+* Preparing for Data Analyst, Business Intelligence Analyst and Data Scientist opportunities
 
 ---
 
