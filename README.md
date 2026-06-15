@@ -61,6 +61,22 @@ https://github.com/aadityaa-dava/healthcare-claims-fraud-detection
 
 ---
 
+### Healthcare Analytics Data Warehouse
+
+**Python • PostgreSQL • SQL • Power BI**
+
+* Designed and implemented a dimensional healthcare analytics data warehouse using Medicare Provider Utilization and Payment data.
+* Built a star schema consisting of provider, location, and date dimensions with a centralized provider utilization fact table.
+* Developed Python ETL pipelines to transform and load over **1.29 million provider records** into PostgreSQL.
+* Created analytical SQL views for executive KPI reporting, provider rankings, specialty performance analysis and state-level Medicare spending insights.
+* Designed interactive Power BI dashboards analyzing **365M beneficiaries**, **3.5B healthcare services**, and **$120B Medicare payments**.
+* Generated business insights on provider utilization, reimbursement trends, geographic payment distribution and specialty-level performance.
+
+Repository:
+https://github.com/aadityaa-dava/healthcare-analytics-data-warehouse
+
+---
+
 ### U.S. County Economic Risk Analysis Dashboard (DATA 606 Capstone)
 
 **Python • Streamlit • Plotly • Scikit-Learn**
