@@ -6,42 +6,45 @@ University of Maryland, Baltimore County (UMBC)
 
 Baltimore, Maryland, USA
 
-**Data Analytics | Business Intelligence | Machine Learning | Predictive Analytics**
+**Data Analytics | Business Intelligence | Data Engineering | Machine Learning**
 
 ---
 
 ## About Me
 
-I am a Data Science graduate student at the University of Maryland, Baltimore County (UMBC) with experience in data analytics, machine learning, business intelligence, big data technologies and cloud computing.
+I am a Data Science graduate student at the University of Maryland, Baltimore County (UMBC) with experience in data analytics, business intelligence, machine learning, data warehousing and cloud technologies. My work focuses on transforming complex datasets into actionable business insights through data engineering, analytics, visualization and predictive modeling. I enjoy building end-to-end analytics solutions that combine data engineering, dimensional modeling, exploratory analysis, machine learning and business intelligence reporting to solve real-world business problems.
 
-My interests include:
+---
+
+## Areas of Interest
 
 * Data Analytics & Visualization
+* Data Warehousing & Data Engineering
+* Database Design & SQL Analytics
 * Machine Learning & Predictive Modeling
 * Business Intelligence & Dashboard Development
 * Customer & Healthcare Analytics
 * Big Data Processing
 * Cloud-Based Data Solutions
 
-I enjoy building end-to-end projects that combine data engineering, exploratory analysis, machine learning and business storytelling to solve real-world problems.
-
 ---
 
 ## Featured Projects
 
-### Customer Churn Prediction & Retention Analytics
+### Healthcare Analytics Data Warehouse
 
-**Python • Scikit-Learn • XGBoost • Power BI**
+**Python • PostgreSQL • SQL • Power BI**
 
-* Built an end-to-end customer churn analytics solution using 7,032 telecom customer records.
-* Engineered customer risk, CLV, tenure and behavioral features for predictive modeling.
-* Developed customer personas using K-Means clustering and identified high-risk customer segments.
-* Trained Logistic Regression, Random Forest and XGBoost models achieving **83.75% ROC-AUC**.
-* Identified **1,002 high-risk customers** and quantified approximately **$2.86M in revenue at risk**.
-* Designed an interactive Power BI dashboard for churn monitoring and retention analysis.
+* Designed and implemented a healthcare analytics data warehouse using Medicare Provider Utilization and Payment data.
+* Built a star schema consisting of provider, location, and date dimensions with a centralized provider utilization fact table.
+* Developed Python ETL pipelines to transform and load over **1.29 million provider records** into PostgreSQL.
+* Created analytical SQL views for executive KPI reporting, provider rankings, specialty performance analysis and state-level Medicare spending insights.
+* Designed interactive Power BI dashboards analyzing **365M beneficiaries**, **3.5B healthcare services**, and **$120B Medicare payments**.
+* Generated business insights on provider utilization, reimbursement trends, geographic payment distribution and specialty-level performance.
 
 Repository:
-https://github.com/aadityaa-dava/customer-churn-prediction-retention-analytics
+
+https://github.com/aadityaa-dava/healthcare-analytics-data-warehouse
 
 ---
 
@@ -57,23 +60,25 @@ https://github.com/aadityaa-dava/customer-churn-prediction-retention-analytics
 * Created Power BI dashboards supporting fraud monitoring and provider risk assessment.
 
 Repository:
+
 https://github.com/aadityaa-dava/healthcare-claims-fraud-detection
 
 ---
 
-### Healthcare Analytics Data Warehouse
+### Customer Churn Prediction & Retention Analytics
 
-**Python • PostgreSQL • SQL • Power BI**
+**Python • Scikit-Learn • XGBoost • Power BI**
 
-* Designed and implemented a dimensional healthcare analytics data warehouse using Medicare Provider Utilization and Payment data.
-* Built a star schema consisting of provider, location, and date dimensions with a centralized provider utilization fact table.
-* Developed Python ETL pipelines to transform and load over **1.29 million provider records** into PostgreSQL.
-* Created analytical SQL views for executive KPI reporting, provider rankings, specialty performance analysis and state-level Medicare spending insights.
-* Designed interactive Power BI dashboards analyzing **365M beneficiaries**, **3.5B healthcare services**, and **$120B Medicare payments**.
-* Generated business insights on provider utilization, reimbursement trends, geographic payment distribution and specialty-level performance.
+* Built an end-to-end customer churn analytics solution using 7,032 telecom customer records.
+* Engineered customer risk, CLV, tenure, and behavioral features for predictive modeling.
+* Developed customer personas using K-Means clustering and identified high-risk customer segments.
+* Trained Logistic Regression, Random Forest and XGBoost models achieving **83.75% ROC-AUC**.
+* Identified **1,002 high-risk customers** and quantified approximately **$2.86M in revenue at risk**.
+* Designed an interactive Power BI dashboard for churn monitoring and retention analysis.
 
 Repository:
-https://github.com/aadityaa-dava/healthcare-analytics-data-warehouse
+
+https://github.com/aadityaa-dava/customer-churn-prediction-retention-analytics
 
 ---
 
@@ -88,6 +93,7 @@ https://github.com/aadityaa-dava/healthcare-analytics-data-warehouse
 * Generated insights supporting economic planning, policy evaluation and regional risk assessment.
 
 Repository:
+
 https://github.com/aadityaa-dava/UMBC-DATA606-Capstone
 
 ---
@@ -103,6 +109,7 @@ https://github.com/aadityaa-dava/UMBC-DATA606-Capstone
 * Leveraged PostgreSQL and Hibernate/JPA for persistent URL storage and retrieval.
 
 Repository:
+
 https://github.com/aadityaa-dava/distributed-url-shortener
 
 ---
@@ -112,12 +119,13 @@ https://github.com/aadityaa-dava/distributed-url-shortener
 **Python • Scikit-Learn • Pandas • Matplotlib**
 
 * Built a machine learning pipeline to predict New York City taxi fares using trip-level transportation data.
-* Performed data cleaning, exploratory analysis, and geospatial feature engineering.
+* Performed data cleaning, exploratory analysis and geospatial feature engineering.
 * Engineered temporal and distance-based features including trip duration and Manhattan distance.
 * Developed and evaluated Random Forest regression models using RMSE and residual analysis.
 * Implemented a complete workflow covering data preparation, modeling, evaluation and model persistence.
 
 Repository:
+
 https://github.com/aadityaa-dava/NYC-Taxi-Fare-Prediction
 
 ---
@@ -132,6 +140,17 @@ https://github.com/aadityaa-dava/NYC-Taxi-Fare-Prediction
 * PHP
 * C
 
+### Data Engineering & Warehousing
+
+* ETL Development
+* Data Warehousing
+* Star Schema Modeling
+* Dimensional Modeling
+* Data Pipeline Development
+* Data Validation
+* Data Quality Checks
+* SQL Analytics
+
 ### Data Analytics & Machine Learning
 
 * Pandas
@@ -143,6 +162,7 @@ https://github.com/aadityaa-dava/NYC-Taxi-Fare-Prediction
 * Regression
 * Statistical Analysis
 * Model Evaluation
+* Exploratory Data Analysis (EDA)
 
 ### Data Visualization
 
@@ -170,10 +190,12 @@ https://github.com/aadityaa-dava/NYC-Taxi-Fare-Prediction
 
 ### Databases
 
-* MySQL
 * PostgreSQL
+* MySQL
 * MongoDB
 * Redis
+* Database Design
+* Query Optimization
 
 ---
 
@@ -182,6 +204,7 @@ https://github.com/aadityaa-dava/NYC-Taxi-Fare-Prediction
 ### Implementing an Accident Detection and Notification System Using AWS
 
 **International Journal of Engineering Science and Advanced Technology (IJESAT)**
+
 Volume 24, Issue 06, 2024
 
 * Co-authored a research paper on cloud-based IoT accident detection and emergency notification systems using AWS services.
@@ -190,11 +213,11 @@ Volume 24, Issue 06, 2024
 
 ## Current Focus
 
-* Building advanced machine learning and analytics projects
-* Expanding expertise in Power BI and business intelligence
-* Strengthening big data and cloud computing skills
-* Developing production-ready analytics solutions
-* Preparing for Data Analyst, Business Intelligence Analyst and Data Scientist opportunities
+* Building end-to-end analytics and data engineering projects
+* Expanding expertise in Power BI, SQL and business intelligence
+* Strengthening data warehousing and dimensional modeling skills
+* Developing scalable analytics platforms and reporting solutions
+* Preparing for Data Analyst, Business Intelligence Analyst, Analytics Engineer and Data Scientist opportunities
 
 ---
 
