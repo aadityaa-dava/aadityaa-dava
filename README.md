@@ -6,30 +6,50 @@ University of Maryland, Baltimore County (UMBC)
 
 Baltimore, Maryland, USA
 
-**Data Analytics | Business Intelligence | Data Engineering | Machine Learning**
+**Data Engineering | Analytics Engineering | Business Intelligence | Data Analytics**
 
 ---
 
 ## About Me
 
-I am a Data Science graduate student at the University of Maryland, Baltimore County (UMBC) with experience in data analytics, business intelligence, machine learning, data warehousing and cloud technologies. My work focuses on transforming complex datasets into actionable business insights through data engineering, analytics, visualization and predictive modeling. I enjoy building end-to-end analytics solutions that combine data engineering, dimensional modeling, exploratory analysis, machine learning and business intelligence reporting to solve real-world business problems.
+I am a Data Science graduate student at the University of Maryland, Baltimore County (UMBC) with experience in Data Engineering, Analytics Engineering, Business Intelligence, Machine Learning and Data Warehousing.
+
+My work focuses on designing end-to-end analytics platforms that transform raw data into business-ready insights through ETL pipelines, dimensional modeling, analytics engineering, dashboard development and predictive analytics.
+
+I enjoy building scalable data solutions using modern tools such as PySpark, PostgreSQL, dbt, Airflow, Tableau, Power BI and cloud technologies.
 
 ---
 
 ## Areas of Interest
 
-* Data Analytics & Visualization
-* Data Warehousing & Data Engineering
-* Database Design & SQL Analytics
-* Machine Learning & Predictive Modeling
+* Data Engineering
+* Analytics Engineering
+* Data Warehousing & Dimensional Modeling
 * Business Intelligence & Dashboard Development
-* Customer & Healthcare Analytics
+* SQL & Database Systems
 * Big Data Processing
-* Cloud-Based Data Solutions
+* Machine Learning & Predictive Analytics
+* Healthcare & Financial Analytics
 
 ---
 
 ## Featured Projects
+
+### Banking Analytics Engineering Platform
+
+**PySpark • PostgreSQL • dbt • Airflow • Docker • Tableau**
+
+* Built an end-to-end banking analytics platform processing 500K+ transactions and 20K+ loan records.
+* Designed a dimensional data warehouse with fact and dimension tables for customer, transaction and loan analytics.
+* Developed dbt staging models and analytical data marts for executive KPI reporting and loan portfolio monitoring.
+* Automated workflows using Apache Airflow and containerized infrastructure using Docker.
+* Created Tableau dashboards delivering executive banking KPIs and loan portfolio insights.
+
+Repository:
+
+[Banking Analytics Engineering Platform](https://github.com/aadityaa-dava/banking-analytics-engineering-platform)
+
+---
 
 ### Healthcare Analytics Data Warehouse
 
@@ -37,14 +57,13 @@ I am a Data Science graduate student at the University of Maryland, Baltimore Co
 
 * Designed and implemented a healthcare analytics data warehouse using Medicare Provider Utilization and Payment data.
 * Built a star schema consisting of provider, location, and date dimensions with a centralized provider utilization fact table.
-* Developed Python ETL pipelines to transform and load over **1.29 million provider records** into PostgreSQL.
+* Developed Python ETL pipelines to transform and load over 1.29 million provider records into PostgreSQL.
 * Created analytical SQL views for executive KPI reporting, provider rankings, specialty performance analysis and state-level Medicare spending insights.
-* Designed interactive Power BI dashboards analyzing **365M beneficiaries**, **3.5B healthcare services**, and **$120B Medicare payments**.
-* Generated business insights on provider utilization, reimbursement trends, geographic payment distribution and specialty-level performance.
+* Designed interactive Power BI dashboards analyzing 365M beneficiaries, 3.5B healthcare services and $120B Medicare payments.
 
 Repository:
 
-https://github.com/aadityaa-dava/healthcare-analytics-data-warehouse
+[Healthcare Analytics Data Warehouse](https://github.com/aadityaa-dava/healthcare-analytics-data-warehouse)
 
 ---
 
@@ -53,32 +72,13 @@ https://github.com/aadityaa-dava/healthcare-analytics-data-warehouse
 **Python • SQL • Scikit-Learn • Power BI**
 
 * Built an end-to-end healthcare fraud detection pipeline using Medicare claims datasets.
-* Engineered provider-level fraud indicators and analyzed reimbursement and utilization patterns.
-* Developed machine learning models achieving **96.99% ROC-AUC** and **91.09% Recall**.
+* Developed machine learning models achieving 96.99% ROC-AUC and 91.09% Recall.
 * Applied SMOTE to address class imbalance and improve fraud detection performance.
-* Identified key fraud indicators including claim volume, reimbursement amounts and length of stay.
-* Created Power BI dashboards supporting fraud monitoring and provider risk assessment.
+* Designed Power BI dashboards supporting fraud monitoring and provider risk assessment.
 
 Repository:
 
-https://github.com/aadityaa-dava/healthcare-claims-fraud-detection
-
----
-
-### Customer Churn Prediction & Retention Analytics
-
-**Python • Scikit-Learn • XGBoost • Power BI**
-
-* Built an end-to-end customer churn analytics solution using 7,032 telecom customer records.
-* Engineered customer risk, CLV, tenure, and behavioral features for predictive modeling.
-* Developed customer personas using K-Means clustering and identified high-risk customer segments.
-* Trained Logistic Regression, Random Forest and XGBoost models achieving **83.75% ROC-AUC**.
-* Identified **1,002 high-risk customers** and quantified approximately **$2.86M in revenue at risk**.
-* Designed an interactive Power BI dashboard for churn monitoring and retention analysis.
-
-Repository:
-
-https://github.com/aadityaa-dava/customer-churn-prediction-retention-analytics
+[Healthcare Claims Fraud Detection](https://github.com/aadityaa-dava/healthcare-claims-fraud-detection)
 
 ---
 
@@ -86,47 +86,13 @@ https://github.com/aadityaa-dava/customer-churn-prediction-retention-analytics
 
 **Python • Streamlit • Plotly • Scikit-Learn**
 
-* Analyzed socioeconomic conditions across **3,221 U.S. counties** using ACS Census datasets.
+* Analyzed socioeconomic conditions across 3,221 U.S. counties using ACS Census datasets.
 * Developed a county-level Economic Risk Scoring Framework using income, poverty, employment, education and housing indicators.
-* Performed exploratory analysis to identify drivers of economic vulnerability and regional disparities.
-* Built and deployed an interactive Streamlit dashboard with county risk maps and dynamic filtering.
-* Generated insights supporting economic planning, policy evaluation and regional risk assessment.
+* Built an interactive Streamlit dashboard with county risk maps and dynamic filtering.
 
 Repository:
 
-https://github.com/aadityaa-dava/UMBC-DATA606-Capstone
-
----
-
-### Distributed URL Shortener
-
-**Java • Spring Boot • PostgreSQL • Redis**
-
-* Developed a scalable URL shortening service using Spring Boot, PostgreSQL, Redis and REST APIs.
-* Implemented Base62 encoding for compact URL generation and redirection workflows.
-* Integrated Redis caching to improve redirect performance and reduce database lookups.
-* Designed a layered backend architecture with validation, exception handling and analytics tracking.
-* Leveraged PostgreSQL and Hibernate/JPA for persistent URL storage and retrieval.
-
-Repository:
-
-https://github.com/aadityaa-dava/distributed-url-shortener
-
----
-
-### NYC Taxi Fare Prediction
-
-**Python • Scikit-Learn • Pandas • Matplotlib**
-
-* Built a machine learning pipeline to predict New York City taxi fares using trip-level transportation data.
-* Performed data cleaning, exploratory analysis and geospatial feature engineering.
-* Engineered temporal and distance-based features including trip duration and Manhattan distance.
-* Developed and evaluated Random Forest regression models using RMSE and residual analysis.
-* Implemented a complete workflow covering data preparation, modeling, evaluation and model persistence.
-
-Repository:
-
-https://github.com/aadityaa-dava/NYC-Taxi-Fare-Prediction
+[UMBC DATA606 Capstone](https://github.com/aadityaa-dava/UMBC-DATA606-Capstone)
 
 ---
 
@@ -140,44 +106,43 @@ https://github.com/aadityaa-dava/NYC-Taxi-Fare-Prediction
 * PHP
 * C
 
-### Data Engineering & Warehousing
+### Data Engineering
 
+* PySpark
 * ETL Development
 * Data Warehousing
 * Star Schema Modeling
 * Dimensional Modeling
 * Data Pipeline Development
-* Data Validation
-* Data Quality Checks
-* SQL Analytics
+* Data Quality Validation
+* Apache Airflow
+* dbt
+* Docker
 
-### Data Analytics & Machine Learning
+### Databases
+
+* PostgreSQL
+* MySQL
+* MongoDB
+* Redis
+
+### Analytics & Machine Learning
 
 * Pandas
 * NumPy
 * Scikit-Learn
 * XGBoost
 * Feature Engineering
-* Classification
-* Regression
 * Statistical Analysis
-* Model Evaluation
-* Exploratory Data Analysis (EDA)
+* Predictive Modeling
 
 ### Data Visualization
 
-* Power BI
 * Tableau
+* Power BI
 * Plotly
 * Matplotlib
 * Seaborn
-
-### Big Data
-
-* PySpark
-* Spark SQL
-* Hadoop
-* HDFS
 
 ### Cloud & DevOps
 
@@ -187,15 +152,6 @@ https://github.com/aadityaa-dava/NYC-Taxi-Fare-Prediction
 * AWS IoT Core
 * Git
 * GitHub
-
-### Databases
-
-* PostgreSQL
-* MySQL
-* MongoDB
-* Redis
-* Database Design
-* Query Optimization
 
 ---
 
@@ -213,11 +169,12 @@ Volume 24, Issue 06, 2024
 
 ## Current Focus
 
-* Building end-to-end analytics and data engineering projects
-* Expanding expertise in Power BI, SQL and business intelligence
-* Strengthening data warehousing and dimensional modeling skills
-* Developing scalable analytics platforms and reporting solutions
-* Preparing for Data Analyst, Business Intelligence Analyst, Analytics Engineer and Data Scientist opportunities
+* Data Engineering Internships
+* Analytics Engineering
+* Data Warehousing & Data Modeling
+* PySpark & Distributed Data Processing
+* SQL & Database Optimization
+* Business Intelligence & Reporting
 
 ---
 
