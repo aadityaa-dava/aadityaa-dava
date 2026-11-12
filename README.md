@@ -1,189 +1,133 @@
 # Hi, I'm Aadityaa Dava
 
-Graduate Student - Master of Science in Data Science
+**Software Development Engineer (new grad)** | M.P.S. in Data Science, UMBC (graduating Dec 2026) | Baltimore, Maryland
 
-University of Maryland, Baltimore County (UMBC)
-
-Baltimore, Maryland, USA
-
-**Data Engineering | Analytics Engineering | Business Intelligence | Data Analytics**
+Backend systems, data pipelines and cloud. Looking for full-time SDE roles starting January 2027.
 
 ---
 
 ## About Me
 
-I am a Data Science graduate student at the University of Maryland, Baltimore County (UMBC) with experience in Data Engineering, Analytics Engineering, Business Intelligence, Machine Learning and Data Warehousing.
-
-My work focuses on designing end-to-end analytics platforms that transform raw data into business-ready insights through ETL pipelines, dimensional modeling, analytics engineering, dashboard development and predictive analytics.
-
-I enjoy building scalable data solutions using modern tools such as PySpark, PostgreSQL, dbt, Airflow, Tableau, Power BI and cloud technologies.
+I build backend services and data pipelines, and I care about the parts that break in production: consistency across services, idempotency, failure handling and tests that can actually fail. I have shipped data processing and reporting systems at LTIMindtree and for a T-Mobile client through Valarcorp, and I build side projects to practice distributed-systems ideas end to end.
 
 ---
 
-## Areas of Interest
+## Experience
 
-* Data Engineering
-* Analytics Engineering
-* Data Warehousing & Dimensional Modeling
-* Business Intelligence & Dashboard Development
-* SQL & Database Systems
-* Big Data Processing
-* Machine Learning & Predictive Analytics
-* Healthcare & Financial Analytics
+**Software Development Engineer, Valarcorp (T-Mobile client)**, May 2026 to Aug 2026
+Built backend profiling, transformation and validation processes in Python, PySpark and SQL over 1M+ records from multiple upstream systems, catching mismatched totals, bad records and late data before they reached executive reports.
+
+**Software Development Engineer, LTIMindtree**, Mar 2024 to Dec 2024
+Worked on client data and reporting systems: tuned SQL and ETL transformations (20% faster), automated a recurring reporting process, fixed a pipeline broken by an upstream schema change, and shipped through peer-reviewed pull requests.
+
+**Graduate Assistant, UMBC**, Jan 2026 to May 2026
+Supported 150+ students in Probability and Statistics for Data Science through labs, recitations and office hours.
 
 ---
 
 ## Featured Projects
 
+### Order Platform: event-driven order processing
+
+**Java 21 • Spring Boot • Kafka • PostgreSQL • Redis • Docker • Testcontainers • k6**
+
+* Four services (order, inventory, payment, notification) keep data consistent without distributed transactions, using choreographed sagas with compensating events, a transactional outbox and idempotent consumers.
+* Load-tested with k6 and fixed a consumer-thread bottleneck: sustainable throughput rose from about 22 to 85 orders/s (3.8x) on one laptop.
+* Crashed services mid-saga to verify recovery: 601 of 601 orders confirmed after a `kill -9` under load.
+* 40 test classes, an 80% coverage gate in GitHub Actions, and Prometheus, Grafana and OpenTelemetry observability.
+
+[Repository](https://github.com/aadityaa-dava/order-platform)
+
+---
+
+### Multi-Tenant Invoicing API
+
+**TypeScript • NestJS • PostgreSQL • Prisma • Redis • BullMQ**
+
+* Tenant isolation with forced PostgreSQL row-level security and per-transaction tenant context.
+* argon2id authentication with refresh-token rotation and reuse detection, plus role-based access control across four roles.
+* Gapless invoice numbering, integer-cent money arithmetic, and idempotent background jobs (email, recurring invoices, overdue sweep).
+* 200+ end-to-end tests against real PostgreSQL and Redis. Work in progress: Stripe, web frontend and deployment are planned.
+
+[Repository](https://github.com/aadityaa-dava/invoicing-saas)
+
+---
+
+### Fraud Detection MLOps Pipeline
+
+**Python • FastAPI • LightGBM • MLflow • DVC • Docker • GitHub Actions**
+
+* Reproducible pipeline on the IEEE-CIS dataset with DVC data versioning, pandera validation and an MLflow model registry.
+* 0.549 PR-AUC on a time-based test split (0.035 for random guessing).
+* FastAPI service shipped as a Docker image through GitHub Actions CI/CD to a live Render deployment, with Evidently drift monitoring.
+
+[Repository](https://github.com/aadityaa-dava/mlops-tabular-pipeline)
+
+---
+
+### RedLightWatch: edge red-light violation detector
+
+**Python • YOLOv8 • ByteTrack • TensorRT • NVIDIA Jetson Orin Nano • Streamlit**
+
+* Detects and tracks vehicles, reads the traffic-light colour and flags stop-line crossings on red, running a TensorRT FP16 engine at 8 to 13 FPS on the Jetson.
+* Matched hand-labelled counts on all 9 test clips. Thresholds were tuned on those same clips, so real-world accuracy will be lower.
+
+[Repository](https://github.com/aadityaa-dava/red-light-watch)
+
+---
+
 ### Banking Analytics Engineering Platform
 
 **PySpark • PostgreSQL • dbt • Airflow • Docker • Tableau**
 
-* Built an end-to-end banking analytics platform processing 500K+ transactions and 20K+ loan records.
-* Designed a dimensional data warehouse with fact and dimension tables for customer, transaction and loan analytics.
-* Developed dbt staging models and analytical data marts for executive KPI reporting and loan portfolio monitoring.
-* Automated workflows using Apache Airflow and containerized infrastructure using Docker.
-* Created Tableau dashboards delivering executive banking KPIs and loan portfolio insights.
+* End-to-end pipeline on a synthetic dataset of 500K transactions, 50K customers and 20K loans: PySpark ETL, PostgreSQL star schema, dbt staging models and analytics marts.
+* Five-stage Airflow DAG in Docker with row count, null and integrity checks, feeding Tableau executive dashboards.
 
-Repository:
-
-[Banking Analytics Engineering Platform](https://github.com/aadityaa-dava/banking-analytics-engineering-platform)
+[Repository](https://github.com/aadityaa-dava/banking-analytics-engineering-platform)
 
 ---
 
-### Healthcare Analytics Data Warehouse
+### More data work
 
-**Python • PostgreSQL • SQL • Power BI**
-
-* Designed and implemented a healthcare analytics data warehouse using Medicare Provider Utilization and Payment data.
-* Built a star schema consisting of provider, location, and date dimensions with a centralized provider utilization fact table.
-* Developed Python ETL pipelines to transform and load over 1.29 million provider records into PostgreSQL.
-* Created analytical SQL views for executive KPI reporting, provider rankings, specialty performance analysis and state-level Medicare spending insights.
-* Designed interactive Power BI dashboards analyzing 365M beneficiaries, 3.5B healthcare services and $120B Medicare payments.
-
-Repository:
-
-[Healthcare Analytics Data Warehouse](https://github.com/aadityaa-dava/healthcare-analytics-data-warehouse)
-
----
-
-### Healthcare Claims Fraud Detection Using Machine Learning
-
-**Python • SQL • Scikit-Learn • Power BI**
-
-* Built an end-to-end healthcare fraud detection pipeline using Medicare claims datasets.
-* Developed machine learning models achieving 96.99% ROC-AUC and 91.09% Recall.
-* Applied SMOTE to address class imbalance and improve fraud detection performance.
-* Designed Power BI dashboards supporting fraud monitoring and provider risk assessment.
-
-Repository:
-
-[Healthcare Claims Fraud Detection](https://github.com/aadityaa-dava/healthcare-claims-fraud-detection)
-
----
-
-### U.S. County Economic Risk Analysis Dashboard (DATA 606 Capstone)
-
-**Python • Streamlit • Plotly • Scikit-Learn**
-
-* Analyzed socioeconomic conditions across 3,221 U.S. counties using ACS Census datasets.
-* Developed a county-level Economic Risk Scoring Framework using income, poverty, employment, education and housing indicators.
-* Built an interactive Streamlit dashboard with county risk maps and dynamic filtering.
-
-Repository:
-
-[UMBC DATA606 Capstone](https://github.com/aadityaa-dava/UMBC-DATA606-Capstone)
+* **[Healthcare Analytics Data Warehouse](https://github.com/aadityaa-dava/healthcare-analytics-data-warehouse):** Python ETL and a PostgreSQL star schema over Medicare provider utilization data, with Power BI dashboards.
+* **[Healthcare Claims Fraud Detection](https://github.com/aadityaa-dava/healthcare-claims-fraud-detection):** logistic regression with 91.09% recall and 96.99% ROC-AUC on 5,410 providers, using SMOTE for class imbalance.
+* **[US County Economic Risk Dashboard](https://github.com/aadityaa-dava/UMBC-DATA606-Capstone) (DATA 606 capstone):** composite risk score for 3,221 counties from Census ACS data, with a live Streamlit app.
 
 ---
 
 ## Technical Skills
 
-### Programming
+**Languages:** Java, TypeScript, Python, SQL, R
 
-* Python
-* SQL
-* Java
-* PHP
-* C
+**Backend and APIs:** Spring Boot, NestJS, FastAPI, REST, Kafka, PostgreSQL, Redis, BullMQ
 
-### Data Engineering
+**Data and ML:** PySpark, Spark, Airflow, dbt, Snowflake, Databricks, MLflow, DVC, scikit-learn, LightGBM
 
-* PySpark
-* ETL Development
-* Data Warehousing
-* Star Schema Modeling
-* Dimensional Modeling
-* Data Pipeline Development
-* Data Quality Validation
-* Apache Airflow
-* dbt
-* Docker
+**Cloud and DevOps:** AWS (DynamoDB, SNS, Pinpoint), Azure, Docker, Kubernetes, GitHub Actions, Testcontainers, k6, Prometheus, Grafana, OpenTelemetry, Git
 
-### Databases
-
-* PostgreSQL
-* MySQL
-* MongoDB
-* Redis
-
-### Analytics & Machine Learning
-
-* Pandas
-* NumPy
-* Scikit-Learn
-* XGBoost
-* Feature Engineering
-* Statistical Analysis
-* Predictive Modeling
-
-### Data Visualization
-
-* Tableau
-* Power BI
-* Plotly
-* Matplotlib
-* Seaborn
-
-### Cloud & DevOps
-
-* AWS S3
-* AWS Lambda
-* AWS SNS
-* AWS IoT Core
-* Git
-* GitHub
+**BI:** Tableau, Power BI
 
 ---
 
 ## Publication
 
-### Implementing an Accident Detection and Notification System Using AWS
-
-**International Journal of Engineering Science and Advanced Technology (IJESAT)**
-
-Volume 24, Issue 06, 2024
-
-* Co-authored a research paper on cloud-based IoT accident detection and emergency notification systems using AWS services.
+**[Implementing an Accident Detection and Notification System Using AWS](https://www.ijesat.com/ijesat/files/V24I6012_1727765957.pdf)**, IJESAT, Vol. 24, Issue 06, 2024.
+Co-author. Built the AWS cloud backend (DynamoDB, SNS, Pinpoint) for an IoT crash detection prototype.
 
 ---
 
 ## Current Focus
 
-* Data Engineering Internships
-* Analytics Engineering
-* Data Warehousing & Data Modeling
-* PySpark & Distributed Data Processing
-* SQL & Database Optimization
-* Business Intelligence & Reporting
+* Full-time SDE roles starting January 2027
+* Distributed systems and backend reliability
+* Data pipelines and cloud infrastructure
 
 ---
 
 ## Connect With Me
 
-**Email:** [aadityaa.dava@gmail.com](mailto:aadityaa.dava@gmail.com)
+**Email:** [aadityaa.dava.dev@gmail.com](mailto:aadityaa.dava.dev@gmail.com)
 
-**LinkedIn:**
-https://www.linkedin.com/in/aadityaa-dava-688908308
+**LinkedIn:** https://www.linkedin.com/in/aadityaa-dava-688908308
 
-**GitHub:**
-https://github.com/aadityaa-dava
+**GitHub:** https://github.com/aadityaa-dava
