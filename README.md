@@ -1,6 +1,6 @@
 # Hi, I'm Aadityaa Dava
 
-**Software Development Engineer (new grad)** | M.P.S. in Data Science, UMBC (graduating Dec 2026) | Baltimore, Maryland
+**Software Development Engineer (new grad)** | M.S. in Data Science, UMBC (graduating Dec 2026) | Baltimore, Maryland
 
 Backend systems, data pipelines and cloud. Looking for full-time SDE roles starting January 2027.
 
