@@ -128,6 +128,4 @@ Co-author. Built the AWS cloud backend (DynamoDB, SNS, Pinpoint) for an IoT cras
 
 **Email:** [aadityaa.dava.dev@gmail.com](mailto:aadityaa.dava.dev@gmail.com)
 
-**LinkedIn:** https://www.linkedin.com/in/aadityaa-dava-688908308
-
 **GitHub:** https://github.com/aadityaa-dava
